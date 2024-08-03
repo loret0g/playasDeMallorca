@@ -23,9 +23,7 @@ body {
 
 /** Globales **/
 .contenedor {
-    /* max-width: 120rem;
-    width: 90%; */
-    width: min(90%, 120rem);    /* Aplica el menor  */
+    width: min(90%, 120rem);
     margin: 0 auto;
 }
 
@@ -77,7 +75,7 @@ img {
     height: 60rem;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;     /* Lo importante que se vea al redimensionar */
+    background-position: center center;
 }
 
 .header__texto {
@@ -96,10 +94,10 @@ img {
     padding-top: 3rem;
 }
 @media (min-width: 768px) {
-    .barra {            /* En dispositivos grandes se posiciona en la misma línea. En pequeños le pondremos el block a los <a> */
+    .barra {
         display: flex;
         justify-content: space-between;
-        align-items: center;    /* Para alinear verticalmente */
+        align-items: center;
     }
 }
 
@@ -152,7 +150,6 @@ img {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    /* text-overflow: ellipsis; */
 }
 
 .entrada__texto.mostrar-todo {
@@ -177,7 +174,7 @@ img {
 
 @media (min-width: 768px) {
     .boton {
-        display: inline-block;    /* El 'inline' es inmune al margin y width */
+        display: inline-block;
     }
 }
 
@@ -285,12 +282,12 @@ img {
 }
 
 .campo__label {
-    flex: 0 0 9rem;     /* No va a crecer, pero todos tendrán el mismo tamaño para que queden alineados */
+    flex: 0 0 9rem;
     text-align: right;
 }
 
 .campo__field {
-    flex: 1;            /* Ocupará todo el ancho, ya que el label no tiene 'crecimiento' */
+    flex: 1;
     border: 1px solid var(--gris);
     overflow: auto
 }
