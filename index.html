@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web de blog de café">
+
+    <title>Playas de Mallorca</title>
+
+    <link rel="icon" href="img/icon.png">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- <link rel="preload" href="img/blog1.jpg" as="image"> -->
+
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">playas<span class="logo__bold">DeMallorca</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="excursiones.html" class="navegacion__enlace">Excursiones</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>                
+                </nav>
+            </div> <!-- .barra -->
+        </div>
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de las mejores playas de Mallorca</h2>
+            <p class="no-margin">Descubre las actividades que hemos preparado</p>
+        </div>
+    </header>
+
+    <!-- Contenido -->
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Nuestro Blog</h3>
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <!-- <source srcset="img/blog1.webp" type="image/webp"> -->
+                        <img loading="lazy" src="img/blog1.jpg" alt="imagen blog">
+                    </picture>
+                </div>
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Caló des Màrmols</h4>
+                    <p class="entrada__texto">
+                        Cala des Màrmols es una de las pocas calas totalmente vírgenes que quedan en el este de Mallorca. Llegar a este paraíso requiere caminar, a menos que tengas la suerte de ser propietario de un velero o embarcación similar. 
+                        <br>La ruta comienza en el faro de Cap de Ses Salines y dura aproximadamente una <strong>hora y media</strong>. Es fundamental llevar un buen calzado, además de agua y algo de comida. El esfuerzo se ve recompensado por los impresionantes acantilados de piedra caliza y las aguas cristalinas de color azul turquesa. Muy cerca se encuentra Caló des Moro, que es mucho más transitada. <br>
+                        Cala des Màrmols tiene una longitud de unos 40 metros y una anchura de 50 metros, rodeada de altos acantilados que la protegen. La arena es blanca y fina, y el agua es tan clara que permite ver el fondo marino con facilidad, lo que la convierte en un excelente lugar para practicar snorkel. Debido a su difícil acceso, es una cala menos concurrida, ideal para quienes buscan tranquilidad y un entorno natural virgen. <br>
+
+                        Para aquellos que disfrutan del senderismo, la caminata desde el faro de Cap de Ses Salines ofrece vistas espectaculares del paisaje mallorquín, con flora y fauna autóctonas. Durante el trayecto, es posible encontrar otras pequeñas calas y cuevas que invitan a explorar. <br>
+
+                        En resumen, Cala des Màrmols es un rincón paradisíaco que vale la pena visitar, especialmente para los amantes de la naturaleza y la aventura.
+                    </p>
+                    <button class="boton boton--primario leer-entrada">Leer entrada</button>
+                    <!-- <a href="#" class="boton boton--primario leer-entrada">Leer entrada</a> -->
+                </div>
+            </article>
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <!-- <source srcset="img/blog2.webp" type="image/webp"> -->
+                        <img loading="lazy" src="img/blog2.jpg" alt="imagen blog">
+                    </picture>                </div>
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Cala Tuent</h4>
+                    <p class="entrada__texto">Un rincón mágico de Mallorca que seguramente les robará el corazón: Cala Tuent. Si estás buscando un lugar tranquilo, lejos del bullicio turístico, donde puedas conectar con la naturaleza en su estado más puro, esta cala es tu destino ideal. <br>
+                    Ubicada en la impresionante Sierra de Tramuntana, Cala Tuent es una joya escondida que ofrece un refugio perfecto para aquellos que desean escapar del ajetreo y disfrutar de un entorno sereno y natural. El viaje hasta aquí ya es una aventura en sí misma, con un camino serpenteante que te llevará a través de paisajes montañosos impresionantes. ¡Pero no te preocupes, la recompensa al final del camino vale cada curva!</p>
+                    <button class="boton boton--primario leer-entrada">Leer entrada</button>
+                </div>
+            </article>
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <!-- <source srcset="img/blog3.webp" type="image/webp"> -->
+                        <img loading="lazy" src="img/blog3.jpg" alt="imagen blog">
+                    </picture>
+                </div>
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Playa Formentor</h4>
+                    <p class="entrada__texto">
+                        ¡Bienvenidos a la Playa de Formentor, un rincón mágico en el norte de Mallorca que te robará el aliento! Si buscas un lugar donde la naturaleza y la tranquilidad se funden en un abrazo perfecto, este es tu destino ideal. Con su arena fina y blanca, sus aguas cristalinas y su entorno natural virgen, Formentor es una de las playas más hermosas de la isla. <br><br>
+
+                        <strong>Un Entorno de Ensueño</strong> <br>
+                        Formentor, ubicada en la península del mismo nombre, está rodeada por un bosque de pinos y las impresionantes montañas de la Sierra de Tramuntana. Este entorno natural proporciona sombra y un ambiente fresco, perfecto para los días calurosos del verano. La playa en sí tiene cerca de un kilómetro de longitud, lo que permite disfrutar de largos paseos junto al mar. <br><br>
+
+                        <strong>Actividades y Servicios</strong><br>
+                        En Formentor, no solo podrás relajarte bajo el sol, sino que también podrás disfrutar de diversas actividades acuáticas. Desde el alquiler de pedalos y motos acuáticas hasta el snorkel en sus aguas turquesas, hay opciones para todos los gustos. Además, la playa cuenta con servicios como alquiler de hamacas y sombrillas, duchas, baños y restaurantes donde podrás degustar deliciosos platos locales. <br><br>
+
+                        <strong>Cómo Llegar</strong><br>
+                        Llegar a Formentor es parte de la aventura. Puedes optar por un pintoresco viaje en coche desde Port de Pollença, disfrutando de las vistas panorámicas en el camino. El trayecto es sinuoso pero absolutamente hermoso, con miradores donde podrás detenerte y capturar las impresionantes vistas. Si prefieres el mar, también es posible llegar en barco, lo que añade un toque especial a tu visita. <br><br>
+
+                        <strong>Consejos Prácticos</strong><br>
+                        Formentor es muy popular, especialmente en los meses de verano, así que te recomiendo llegar temprano para asegurar un buen lugar en la playa y encontrar aparcamiento fácilmente. Ten en cuenta que los precios del aparcamiento pueden ser elevados, así que planifica tu visita en consecuencia.
+
+                    </p>
+                    <button class="boton boton--primario leer-entrada">Leer entrada</button>
+                </div>
+            </article>
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <!-- <source srcset="img/blog3.webp" type="image/webp"> -->
+                        <img loading="lazy" src="img/blog4.jpg" alt="imagen blog">
+                    </picture>
+                </div>
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Torrent de Pareis</h4>
+                    <p class="entrada__texto">
+                        ¿Buscas una aventura inolvidable en Mallorca? El Torrent de Pareis es una maravilla natural que no te puedes perder. Ubicado en la majestuosa Sierra de Tramuntana, esta espectacular garganta es un paraíso para los amantes del senderismo y la naturaleza. <br><br>
+
+                        <strong>Un Viaje Escénico</strong>   <br>
+                        El viaje hacia el Torrent de Pareis es una experiencia en sí misma. Puedes conducir por la famosa carretera de Sa Calobra, una vía serpenteante que desciende 800 metros en solo 12 kilómetros, con giros impresionantes como el famoso "Nudo de Corbata". Alternativamente, puedes tomar un relajante paseo en barco desde el Puerto de Sóller, disfrutando de las vistas panorámicas del Puig Major y las aisladas bahías en el camino. <br><br>
+
+                        <strong>La Ruta de Senderismo</strong>  <br>
+                        El sendero del Torrent de Pareis es desafiante pero increíblemente gratificante. Comienza en Escorca y sigue el curso del Torrent de Lluc hasta unirse con el Torrent des Gorg Blau, formando el impresionante desfiladero​. La ruta te llevará a través de altas paredes de roca que se elevan hasta 300 metros, en algunas secciones tan estrechas que apenas dejan pasar la luz del sol. <br><br>
+
+                        <strong>Sa Calobra y la Playa del Torrent de Pareis</strong>  <br> 
+                        El desfiladero culmina en la pintoresca playa de Sa Calobra, una pequeña bahía de guijarros rodeada de montañas.
+                        Aquí, puedes relajarte y disfrutar del impresionante paisaje tras una caminata agotadora. Es un lugar popular, así que prepárate para compartir la belleza natural con otros visitantes. <br><br>
+
+                        <strong>Consejos para la Aventura</strong>  <br>
+                        Es fundamental ir preparado: lleva buen calzado, suficiente agua y algo de comida, ya que la caminata puede durar alrededor de seis horas. El senderismo en el Torrent de Pareis solo se recomienda entre mayo y octubre, y es mejor evitarlo después de las lluvias, cuando el torrente puede estar lleno de agua. <br><br>
+
+                        <strong>Un Destino Natural y Cultural</strong> <br>
+                        El Torrent de Pareis no solo es un destino natural espectacular, sino también un área protegida debido a su flora y fauna únicas, incluyendo especies endémicas de las Islas Baleares. Además, cada primer domingo de julio, la playa de Sa Calobra se convierte en el escenario de un concierto gratuito que destaca las mejores voces de la isla, aprovechando la increíble acústica natural del lugar.
+                    </p>
+                    <button class="boton boton--primario leer-entrada">Leer entrada</button>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <h3>Nuestras excursiones</h3>
+            <ul class="cursos no-padding">
+                <li class="widget-curso">
+                    <h4 class="no-margin">Aventura en las playas secretas de Mallorca</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">60€</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">10 - 15</span>
+                    </p>
+                    <a href="excursiones.html" class="boton boton--secundario">Más información</a>
+                </li>
+
+                <li class="widget-curso">
+                    <h4 class="no-margin">Senderismo por la Sierra de Tramuntana</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">75€</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">8 - 12</span>
+                    </p>
+                    <a href="excursiones.html" class="boton boton--secundario">Más información</a>
+                </li>
+
+                <li class="widget-curso">
+                    <h4 class="no-margin">Descubriendo Cuevas y Calas en la Costa Norte</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">85€</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">6 - 10</span>
+                    </p>
+                    <a href="excursiones.html" class="boton boton--secundario">Más información</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">playas<span class="logo__bold">DeMallorca</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="excursiones.html" class="navegacion__enlace">Excursiones</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>                
+                </nav>
+            </div> <!-- .barra -->
+        </div>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>

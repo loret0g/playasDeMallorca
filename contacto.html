@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Página web de blog de café">
+    
+        <title>Excursiones en Mallorca</title>
+            
+        <link rel="icon" href="img/icon.png">
+        <link rel="preload" href="css/normalize.css" as="style">
+        <link rel="stylesheet" href="css/normalize.css">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+        <link rel="preload" href="css/style.css" as="style">
+        <link rel="stylesheet" href="css/style.css">    
+    </head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">playas<span class="logo__bold">DeMallorca</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="excursiones.html" class="navegacion__enlace">Excursiones</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>                
+                </nav>
+            </div> <!-- .barra -->
+        </div>
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de las mejores playas de Mallorca</h2>
+            <p class="no-margin">Descubre las actividades que hemos preparado</p>
+        </div>
+    </header>
+
+    <!-- Contenido -->
+    <main class="contenedor">
+        <h3 class="centrar-texto">Contacto</h3>
+        
+        <div class="contacto-bg"></div> <!-- Imagen de fondo con CSS -->
+
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="name">Nombre:</label>
+                <input class="campo__field" type="text" placeholder="Tu nombre" id="name">
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="email">Email:</label>
+                <input class="campo__field" type="email" placeholder="Tu email" id="email">
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="mensaje">Mensaje:</label>
+                <textarea class="campo__field campo__field--textarea" id="mensaje"></textarea>            
+            </div>
+            <div class="campo">
+                <input type="submit" value="Enviar" class="boton boton--primario">
+            </div>
+        </form>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">playas<span class="logo__bold">DeMallorca</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="excursiones.html" class="navegacion__enlace">Excursiones</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>                
+                </nav>
+            </div> <!-- .barra -->
+        </div>
+    </footer>
+</body>
+</html>
